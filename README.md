@@ -115,19 +115,19 @@ Aqui está a prova real da eficácia do motor. A tabela abaixo mostra a diferen�
 
 ### 🔹 1º Turno (Votos Totais)
 
-| Data da Pesquisa | 1. Resultado da Pesquisa (Datafolha) | 2. Nosso Recálculo (Reponderado PNAD) | 3. Resultado Oficial (Urna/TSE) |
-| :--- | :--- | :--- | :--- |
-| **30/09 e 01/10/2022** | Lula **50%** x Bolsonaro **36%**<br>*(Vantagem Lula +14)* | Lula **43,47%** x Bolsonaro **40,25%**<br>*(Lula +3,22)* | Lula **48,43%** x Bolsonaro **43,20%**<br>*(Lula +5,23)* |
-| **22 e 23/09/2026** | Lula **40%** x Flávio **36%**<br>*(Vantagem Lula +4)* | Lula **37,12%** x Flávio **38,43%**<br>*(Flávio +1,31)* | Flávio **47,03%** x Lula **45,16%**<br>*(Flávio +1,87)* |
-| **29/09 a 01/10/2026** | Lula **42%** x Flávio **38%**<br>*(Vantagem Lula +4)* | Lula **41,36%** x Flávio **43,76%**<br>*(Flávio +2,39)* | Flávio **47,03%** x Lula **45,16%**<br>*(Flávio +1,87)* |
+| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
+| :--- | :--- | :--- | :--- | :--- |
+| **30/09 e 01/10/2022** | Lula x Bolsonaro | Lula 50% / Bol. 36% | Lula 43,47% / Bol. 40,25% | Lula 48,43% / Bol. 43,20% |
+| **22 e 23/09/2026** | Lula x Flávio | Lula 40% / Flávio 36% | Lula 37,12% / Flávio 38,43% | Flávio 47,03% / Lula 45,16% |
+| **29/09 a 01/10/2026** | Lula x Flávio | Lula 42% / Flávio 38% | Lula 41,36% / Flávio 43,76% | Flávio 47,03% / Lula 45,16% |
 
-**A Prova Matemática:** As pesquisas originais (Coluna 1) apontavam o Lula na frente em 2026. Quando aplicamos os pesos da PNAD (Coluna 2), a direção virou e o **Flávio apareceu na liderança**, captando exatamente a tendência que a urna oficial (Coluna 3) confirmou depois.
+**A Prova Matemática:** Em 2022, a pesquisa original exagerava na vantagem de Lula, e o recálculo aproximou o número da realidade da urna. Em 2026, as pesquisas originais apontavam o Lula na frente. Quando aplicamos os pesos da PNAD, o **Flávio apareceu na liderança**, captando exatamente a tendência que a urna oficial confirmou depois.
 
 ### 🔹 2º Turno (Votos Válidos)
 
-| Data da Pesquisa | 1. Resultado da Pesquisa (Datafolha) | 2. Nosso Recálculo (Reponderado PNAD) | 3. Resultado Oficial (Urna/TSE) |
-| :--- | :--- | :--- | :--- |
-| **13 a 15/10/2026** | Flávio **51%** x Lula **49%**<br>*(Vantagem Flávio +2)* | Flávio **52,82%** x Lula **47,18%**<br>*(Flávio +5,63)* | *(Aguardando 2º turno)* |
-| **20 a 22/10/2026** | Flávio **50%** x Lula **50%**<br>*(Empate Técnico)* | Flávio **52,84%** x Lula **47,16%**<br>*(Flávio +5,67)* | *(Aguardando 2º turno)* |
+| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
+| :--- | :--- | :--- | :--- | :--- |
+| **13 a 15/10/2026** | Lula x Flávio | Flávio 51% / Lula 49% | Flávio 52,82% / Lula 47,18% | *(Aguardando)* |
+| **20 a 22/10/2026** | Lula x Flávio | Flávio 50% / Lula 50% | Flávio 52,84% / Lula 47,16% | *(Aguardando)* |
 
-**A Prova Matemática:** O Datafolha divulgou um empate técnico (50% a 50%) na última pesquisa (Coluna 1). O nosso motor, ao corrigir o viés amostral (Coluna 2), apontou uma vantagem consistente de **Flávio (+5,6 pontos)**, mostrando que a amostra original ainda escondia a força do candidato em determinados estratos populacionais.
+**A Prova Matemática:** O Datafolha divulgou um empate técnico (50% a 50%) na última pesquisa. O nosso motor, ao corrigir o viés amostral, apontou uma vantagem consistente de **Flávio (+5,6 pontos)**, mostrando que a amostra original ainda escondia a força do candidato em determinados estratos populacionais.
