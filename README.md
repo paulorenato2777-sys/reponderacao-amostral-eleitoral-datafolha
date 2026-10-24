@@ -107,3 +107,27 @@ ESCOLARIDADE   : Lula =  48.87% | Flavio =  51.13% | Diff =  -2.26
 FINAL VÁLIDOS Lula: 47.16%
 FINAL VÁLIDOS Flavio: 52.84%
 Diferença: -5.67 pontos
+
+
+## ⚖️ Comparação Final: Recálculo vs. Pesquisa Original vs. Urna
+
+Aqui está a prova real da eficácia do motor. A tabela abaixo mostra a diferença entre o que o instituto publicou, o que o nosso código gerou após a reponderação, e o que a urna oficial (TSE) confirmou.
+
+### 🔹 1º Turno (Votos Totais)
+
+| Data da Pesquisa | 1. Resultado da Pesquisa (Datafolha) | 2. Nosso Recálculo (Reponderado PNAD) | 3. Resultado Oficial (Urna/TSE) |
+| :--- | :--- | :--- | :--- |
+| **30/09 e 01/10/2022** | Lula **50%** x Bolsonaro **36%**<br>*(Vantagem Lula +14)* | Lula **43,47%** x Bolsonaro **40,25%**<br>*(Lula +3,22)* | Lula **48,43%** x Bolsonaro **43,20%**<br>*(Lula +5,23)* |
+| **22 e 23/09/2026** | Lula **40%** x Flávio **36%**<br>*(Vantagem Lula +4)* | Lula **37,12%** x Flávio **38,43%**<br>*(Flávio +1,31)* | Flávio **47,03%** x Lula **45,16%**<br>*(Flávio +1,87)* |
+| **29/09 a 01/10/2026** | Lula **42%** x Flávio **38%**<br>*(Vantagem Lula +4)* | Lula **41,36%** x Flávio **43,76%**<br>*(Flávio +2,39)* | Flávio **47,03%** x Lula **45,16%**<br>*(Flávio +1,87)* |
+
+**A Prova Matemática:** As pesquisas originais (Coluna 1) apontavam o Lula na frente em 2026. Quando aplicamos os pesos da PNAD (Coluna 2), a direção virou e o **Flávio apareceu na liderança**, captando exatamente a tendência que a urna oficial (Coluna 3) confirmou depois.
+
+### 🔹 2º Turno (Votos Válidos)
+
+| Data da Pesquisa | 1. Resultado da Pesquisa (Datafolha) | 2. Nosso Recálculo (Reponderado PNAD) | 3. Resultado Oficial (Urna/TSE) |
+| :--- | :--- | :--- | :--- |
+| **13 a 15/10/2026** | Flávio **51%** x Lula **49%**<br>*(Vantagem Flávio +2)* | Flávio **52,82%** x Lula **47,18%**<br>*(Flávio +5,63)* | *(Aguardando 2º turno)* |
+| **20 a 22/10/2026** | Flávio **50%** x Lula **50%**<br>*(Empate Técnico)* | Flávio **52,84%** x Lula **47,16%**<br>*(Flávio +5,67)* | *(Aguardando 2º turno)* |
+
+**A Prova Matemática:** O Datafolha divulgou um empate técnico (50% a 50%) na última pesquisa (Coluna 1). O nosso motor, ao corrigir o viés amostral (Coluna 2), apontou uma vantagem consistente de **Flávio (+5,6 pontos)**, mostrando que a amostra original ainda escondia a força do candidato em determinados estratos populacionais.
