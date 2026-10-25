@@ -53,6 +53,30 @@ A ferramenta foi testada com dados reais de diferentes eleições para provar su
 ### 2º Turno (Votos Válidos)
 *   **Outubro/2026:** O Datafolha divulgou empate técnico (50% a 50%). O nosso motor, ao rodar os dados corrigidos em votos válidos, apontou uma vantagem consistente de **Flávio +5,63 e +5,67 pontos**, demonstrando que a amostra original estava escondendo a força do candidato em determinados estratos.
 
+*   ## ⚖️ Comparação Final: Recálculo vs. Pesquisa Original vs. Urna
+
+Aqui está a prova real da eficácia do motor. A tabela abaixo mostra a diferença entre o que o instituto publicou, o que o nosso código gerou após a reponderação, e o que a urna oficial (TSE) confirmou.
+
+### 🔹 1º Turno (Votos Totais)
+
+| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
+| :--- | :--- | :--- | :--- | :--- |
+| **30/09 e 01/10/2022** | Lula x Bolsonaro | Lula 50% / Bol. 36% | Lula 43,47% / Bol. 40,25% | Lula 48,43% / Bol. 43,20% |
+| **22 e 23/09/2026** | Lula x Flávio | Lula 40% / Flávio 36% | Lula 37,12% / Flávio 38,43% | Flávio 47,03% / Lula 45,16% |
+| **29/09 a 01/10/2026** | Lula x Flávio | Lula 42% / Flávio 38% | Lula 41,36% / Flávio 43,76% | Flávio 47,03% / Lula 45,16% |
+
+**A Prova Matemática:** Em 2022, a pesquisa original exagerava na vantagem de Lula, e o recálculo aproximou o número da realidade da urna. Em 2026, as pesquisas originais apontavam o Lula na frente. Quando aplicamos os pesos da PNAD, o **Flávio apareceu na liderança**, captando exatamente a tendência que a urna oficial confirmou depois.
+
+### 🔹 2º Turno (Votos Válidos)
+
+| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
+| :--- | :--- | :--- | :--- | :--- |
+| **13 a 15/10/2026** | Lula x Flávio | Flávio 51% / Lula 49% | Flávio 52,82% / Lula 47,18% | *(Aguardando)* |
+| **20 a 22/10/2026** | Lula x Flávio | Flávio 50% / Lula 50% | Flávio 52,84% / Lula 47,16% | *(Aguardando)* |
+
+**A Prova Matemática:** O Datafolha divulgou um empate técnico (50% a 50%) na última pesquisa. O nosso motor, ao corrigir o viés amostral, apontou uma vantagem consistente de **Flávio (+5,6 pontos)**, mostrando que a amostra original ainda escondia a força do candidato em determinados estratos populacionais.
+
+
 ## 🖥️ Saída do Código (Resultados Reais)
 
 Abaixo está o output real gerado pelo script ao rodar as 5 bases de dados:
@@ -109,25 +133,3 @@ FINAL VÁLIDOS Flavio: 52.84%
 Diferença: -5.67 pontos
 
 
-## ⚖️ Comparação Final: Recálculo vs. Pesquisa Original vs. Urna
-
-Aqui está a prova real da eficácia do motor. A tabela abaixo mostra a diferença entre o que o instituto publicou, o que o nosso código gerou após a reponderação, e o que a urna oficial (TSE) confirmou.
-
-### 🔹 1º Turno (Votos Totais)
-
-| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
-| :--- | :--- | :--- | :--- | :--- |
-| **30/09 e 01/10/2022** | Lula x Bolsonaro | Lula 50% / Bol. 36% | Lula 43,47% / Bol. 40,25% | Lula 48,43% / Bol. 43,20% |
-| **22 e 23/09/2026** | Lula x Flávio | Lula 40% / Flávio 36% | Lula 37,12% / Flávio 38,43% | Flávio 47,03% / Lula 45,16% |
-| **29/09 a 01/10/2026** | Lula x Flávio | Lula 42% / Flávio 38% | Lula 41,36% / Flávio 43,76% | Flávio 47,03% / Lula 45,16% |
-
-**A Prova Matemática:** Em 2022, a pesquisa original exagerava na vantagem de Lula, e o recálculo aproximou o número da realidade da urna. Em 2026, as pesquisas originais apontavam o Lula na frente. Quando aplicamos os pesos da PNAD, o **Flávio apareceu na liderança**, captando exatamente a tendência que a urna oficial confirmou depois.
-
-### 🔹 2º Turno (Votos Válidos)
-
-| Data | Candidatos | Pesquisa Original | Nosso Recálculo | Resultado Real |
-| :--- | :--- | :--- | :--- | :--- |
-| **13 a 15/10/2026** | Lula x Flávio | Flávio 51% / Lula 49% | Flávio 52,82% / Lula 47,18% | *(Aguardando)* |
-| **20 a 22/10/2026** | Lula x Flávio | Flávio 50% / Lula 50% | Flávio 52,84% / Lula 47,16% | *(Aguardando)* |
-
-**A Prova Matemática:** O Datafolha divulgou um empate técnico (50% a 50%) na última pesquisa. O nosso motor, ao corrigir o viés amostral, apontou uma vantagem consistente de **Flávio (+5,6 pontos)**, mostrando que a amostra original ainda escondia a força do candidato em determinados estratos populacionais.
